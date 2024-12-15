@@ -1,0 +1,81 @@
+/* General Chart Container Styles */
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+  }
+  
+  .chart-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .loading-text {
+    font-size: 16px;
+    color: #888;
+    text-align: center;
+  }
+  
+  /* Specific Styles for Pie Chart */
+  .pie-chart {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .pie-chart canvas {
+    max-height: 400px;
+  }
+  
+  /* Specific Styles for Bar Chart */
+  .bar-chart {
+    max-width: 700px;
+    width: 100%;
+  }
+  
+  .bar-chart canvas {
+    max-height: 400px;
+  }
+  
+  /* Tooltip Enhancements */
+  .chartjs-tooltip {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  /* Legend Customization */
+  .chart-legend {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .chart-container {
+      padding: 15px;
+      max-width: 95%;
+    }
+  
+    .chart-title {
+      font-size: 18px;
+    }
+  
+    .pie-chart canvas,
+    .bar-chart canvas {
+      max-height: 300px;
+    }
+  }
+  

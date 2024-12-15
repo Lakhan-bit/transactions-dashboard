@@ -1,0 +1,33 @@
+.app {
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+  background: linear-gradient(135deg, #1e1e2f, #34344a);
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.app-select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.app-label {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.app-select {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #444457;
+  color: #ffffff;
+}
